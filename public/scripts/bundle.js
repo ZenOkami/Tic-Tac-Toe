@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("index.js"),console.log(33),console.log("GPS"),console.log("i am screaming".toUpperCase().trim()+"!"),console.log("GPS".toUpperCase().trim()+"!"),console.log((10,Math.pow(10,2)))})();
