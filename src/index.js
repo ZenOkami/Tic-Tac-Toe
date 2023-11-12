@@ -17,3 +17,5 @@ window.onload = () => {
     selectXBtn.addEventListener('click', initGame);
     selectOBtn.addEventListener('click', initGame);
 };
+
+// Next Steps
