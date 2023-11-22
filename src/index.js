@@ -101,7 +101,7 @@ function checkClass(val1, val2, val3, sign) {
 
 // Select Winner Function
 function selectWinner() {
-    if (checkClass(1, 2, 3, playerSign) || checkClass(4, 5, 6) || checkClass(7, 8, 9) || checkClass(1, 4, 7, playerSign) || checkClass(2, 5, 8, playerSign) || checkClass(3, 6, 9, playerSign) || checkClass(1, 5, 9, playerSign) || checkClass(3, 5, 7, playerSign)) {
+    if (checkClass(1, 2, 3, playerSign) || checkClass(4, 5, 6, playerSign) || checkClass(7, 8, 9, playerSign) || checkClass(1, 4, 7, playerSign) || checkClass(2, 5, 8, playerSign) || checkClass(3, 6, 9, playerSign) || checkClass(1, 5, 9, playerSign) || checkClass(3, 5, 7, playerSign)) {
         runBot = false;
         bot(runBot);
         setTimeout(() => {
@@ -127,3 +127,5 @@ function selectWinner() {
 replayBtn.onclick = () => {
     window.location.reload();
 }
+
+// Completed Project
